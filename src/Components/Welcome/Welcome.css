@@ -1,0 +1,63 @@
+.Welcome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding:40px 140px;
+    margin-top: 60px;
+}
+
+.Welcome .left{
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.Welcome .left h1{
+    font-size: 3.5rem;
+    margin-bottom: 24px;
+}
+
+.Welcome .left ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:24px;
+}
+
+.Welcome .left ul li {
+    display: flex;
+    gap:16px;
+    align-items: center;
+}
+
+.Welcome .left ul li span.list-numbered{
+    min-width: 40px;
+    min-height: 40px;
+    border-radius: 50%;
+    white-space: nowrap;
+    background: lightgray;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Welcome .left li p b{
+    color:dimgray;
+}
+
+.Welcome .right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:24px;
+}
+
+.welcome-image{
+    width: 500px;
+    height: auto;
+}
