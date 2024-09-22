@@ -3,7 +3,7 @@ const Navbar = () => {
     return(
         <div className='Navbar'>
             <div className="logo">
-                PortBuilder
+                Port<span>Builder</span>
             </div>
         </div>
     )

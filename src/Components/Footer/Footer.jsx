@@ -3,14 +3,14 @@ const Footer = () => {
     return(
         <div className="Footer">
             <ul>
-                <li>Terms & Conditions</li>
-                <li>Privacy Policy</li>
-                <li>Accessibility</li>
-                <li>Contact Us</li>
+                <li><a href="">Terms & Conditions</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Accessibility</a></li>
+                <li><a href="">Contact us</a></li>
             </ul>
-            <div className="copyright">
-                @PrayushAdhikari
-            </div>
+            <a href="https://linkedin.com/in/prayushadhikari" className="copyright">
+                @adhikareeprayush
+            </a>
         </div>
     )
 }
