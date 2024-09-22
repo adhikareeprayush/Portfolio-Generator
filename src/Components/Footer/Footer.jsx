@@ -5,7 +5,7 @@ const Footer = () => {
             <ul>
                 <li><a href="">Terms & Conditions</a></li>
                 <li><a href="">Privacy Policy</a></li>
-                <li><a href="">Accessibility</a></li>
+                <li><a href="">Accessibility</a></li>npm
                 <li><a href="">Contact us</a></li>
             </ul>
             <a href="https://linkedin.com/in/prayushadhikari" className="copyright">
