@@ -1,0 +1,6 @@
+.Page2{
+    padding: 0 200px;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+}

@@ -1,6 +1,7 @@
 import './Welcome.css'
+import React from "react";
 import main_image from '../../assets/choice-worker-concept-illustrated.png'
-const Welcome = () => {
+const Welcome = ({ onNext }) => {
     return (
         <div className="Welcome">
             <div className="left">
@@ -13,7 +14,7 @@ const Welcome = () => {
             </div>
             <div className="right">
                 <img className="welcome-image" src={main_image} alt=""/>
-                <a href="" className="btn btn-primary">Next</a>
+                <a onClick={onNext} className="btn btn-primary">Next</a>
             </div>
         </div>
     )
